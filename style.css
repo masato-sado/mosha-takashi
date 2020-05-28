@@ -1,0 +1,560 @@
+/*------------------------------*/
+/* 共通 スタイル始まり*/
+/*------------------------------*/
+
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: UtsukushiFONT,"Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho", "メイリオ", Meiryo, serif !important;
+  color: #222222;
+  font-size: 14px;
+}
+
+a {
+  color: #222222;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(3, 66, 3);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+
+/*------------------------------*/
+/* 共通スタイル終わり */
+/*------------------------------*/
+
+
+
+/*------------------------------*/
+/* header 始まり*/
+/*------------------------------*/
+
+
+header {
+  width: 100%;
+  background: #edddc5;
+}
+
+.top-header {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+
+.tb-left {
+  margin-top: 7px;
+}
+
+.header-right {
+  text-align: right;
+  padding-right: 0;
+}
+
+.tel {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+nav.navbar-light {
+  padding: 0;
+}
+
+#logo {
+  padding: 0;
+  display: flex;
+  border-bottom: 2px solid white;
+}
+
+.main-header {
+  max-width: 100%;
+  height: 100%;
+  background-image: url("takashi.home.images/040401_1_sa.jpg");
+}
+
+#logo img {
+  max-width: 100%;
+  height: 100px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 20px;
+}
+
+.navbar-toggler {
+  border-color: rgba(0,0,0,0);
+  height: 50px;
+  margin-right: 20px;
+}
+
+.nave-list ul {
+  display: flex;
+  list-style: none;
+  margin-right: 70px;
+}
+
+.nave-list ul li a {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(5, 153, 5);
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: rgb(5, 153, 5);
+}
+
+/* ハンバーガーボタン */
+
+/* ボーダーを消す */
+.navbar-light .navbar-toggler {
+  border-color: rgba(0,0,0,0); 
+}
+
+/* 青色の外側の枠を消す */
+button.navbar-toggler:focus{
+  outline:none;
+}
+
+/*------------------------------*/
+/* header 終わり */
+/*------------------------------*/
+
+
+/*------------------------------*/
+/* メイン画像 */
+/*------------------------------*/
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  background-color: #edddc5;
+}
+
+.main-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("takashi.home.images/20141206084906_e4ba9a000_ecbdf416_1024.jpg");
+}
+
+.pc {
+  display: block !important;
+}
+
+.sp {
+  display: none !important;
+}
+
+.wrapper-text {
+  text-align: center;
+  width: 100%;
+} 
+
+.wrapper-text img {
+  width: 100%;
+  height: auto;
+}
+
+
+.btn-area .btn a {
+  color: white;
+}
+
+.photo-conts {
+  width: 100%;
+  background-color: #edddc5;
+}
+
+.photo-conts img {
+  width: 100%;
+} 
+
+.photo-title {
+  width: auto;
+}
+
+.info {
+  padding: 15px;
+  background-image: url("takashi.home.images/20141206084906_e4ba9a000_ecbdf416_1024.jpg");
+}
+
+.info-list img {
+  width: 100%;
+}
+
+table th {
+  border-top: 1px dashed rgb(105, 57, 5) !important;
+}
+
+table td {
+  border-top: 1px dashed rgb(105, 57, 5) !important;
+}
+
+table tr {
+  border-bottom: 1px dashed rgb(105, 57, 5) !important;
+}
+
+.btn-area {
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn a {
+  background-color: rgb(105, 189, 131);
+  display: inline-block;
+  padding: 14px 26px;
+  font-size: 12px;
+  color: white;
+  max-width: 100%;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn a:hover {
+  background-color: rgb(16, 136, 54);
+  color: white !important;
+}
+
+#access {
+  margin-top: 39px;
+}
+
+.map-button {
+  width: 100%;
+  text-align: center;
+}
+
+.map-btn {
+  width: 100%;
+}
+
+.map-button a {
+  display: block;
+  background-color: rgb(105, 189, 131);
+  padding: 5 ;
+  color: white;
+  border-radius: 5px;
+}
+
+.map-button a:hover {
+  background-color: rgb(16, 136, 54);
+  transition: 0.3s;
+}
+
+.sns {
+  text-align: center;
+}
+
+.sns p {
+  color: rgb(80, 32, 32);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sns img {
+  width: 5%;
+}
+
+footer {
+  border-top: 1px solid #222222;
+  background-image: url("takashi.home.images/040401_1_sa.jpg");
+}
+
+#footer {
+  width: 100%;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+footer nav ul {
+  list-style: none;
+  display: flex;
+  text-align: justify;
+}
+
+footer nav ul li {
+  width: 90px;
+  text-align: center;
+}
+
+footer nav ul li a {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+footer nav ul li a:hover {
+  color: rgb(5, 153, 5);
+}
+
+
+/*------------------------------*/
+/* トップに戻るボタン*/
+/*------------------------------*/
+
+.back-to-top {
+  position: fixed;
+  bottom: 60px;
+  right:20px;
+
+  display: none;
+  width: 40px;
+  height: 40px;
+  background-color: #f0f0f0;
+  color: #333;
+  opacity: 0.6;
+
+  /* 透明度をフワッと帰る演出 */
+  transition: opacity 2.5s;
+
+  font-size: 1.6rem;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* マウスを乗せた時に透明度を変える */
+.back-to-top:hover {
+  opacity: 1;
+}
+
+
+@media (max-width: 767px) {
+  /* 全体の幅 */
+  .main-header {
+    width: 100%;
+  }
+  
+  #logo img {
+    width: 90%;
+    height: auto;
+  }
+  
+  #wrapper {
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  #photo-title {
+    width: 95%;
+  }
+  
+   p {
+    line-height: 2;
+  }
+ 
+  .inner {
+    text-align: center;
+  }
+
+  .inner p {
+    margin: 10px auto;
+  }
+
+  .article-left img {
+    width: 100%;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .conts img {
+    margin-bottom: 20px;
+  }
+
+  .pc {
+    display: none !important;
+  }
+  
+  .sp {
+    display: block !important;
+  }
+  
+  .sado-photo .photo-title img {
+    width: 100%;
+  }
+
+  .sado-photo img {
+    width: 100%!important;
+  }
+
+  .inner p {
+    padding: 20px!important;
+    font-size: 18px!important;
+    font-weight: 600;
+  }
+  
+  .btn a {
+    padding: 20px 30px!important;
+  }
+  
+
+  .info-title img {
+    width: 100%!important;
+  }
+
+  .sns img {
+    width: 18%!important;
+  }
+  
+  .map-btn {
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  .google-map iframe {
+    width: 375px;
+  }
+  
+  #footer {
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  #footer ul {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0;
+  }
+  
+  footer nav ul li {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+/*------------------------------*/
+  /* トップに戻るボタン*/
+/*------------------------------*/
+
+  .back-to-top {
+    position: fixed;
+    bottom: 60px;
+    right:40px;
+  }
+}
+
+@media (max-width: 850px) {
+    /* 全体の幅 */
+    .main-header {
+      width: 100%;
+    }
+
+  .pc {
+    display: none !important;
+  }
+  
+  .sp {
+    display: block !important;
+  }
+}
+
+.sado-photo p {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.info-list img {
+  width: 85%;
+}
+
+.facebook {
+  text-align: center;
+}
+
+.info-title {
+  text-align: center;
+}
+
+.google-map {
+  text-align: center;
+}
+
+.google-map iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.map-btn {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  #slider ul li img {
+    width: 100%;
+    height: auto;
+  }
+
+  .sado-photo {
+    text-align: center;
+  }
+
+  .sado-photo .photo-title {
+    width: 65%;
+    margin-bottom: 30px;
+  }
+
+  .inner p {
+    font-size: 20px;
+    margin: 0!important;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .btn a {
+    font-size: 16px;
+    padding: 20px 50px;
+  }
+
+  .photo img {
+    margin-bottom: 20px;
+  }
+
+  .info img {
+    width: 60%;
+  }
+
+  .map-btn a {
+    font-size: 16px;
+  }
+
+  .sns img {
+    width: 8%;
+  }
+}
+
+@media (max-width: 1025px) {
+  .top-header {
+    display: none;
+  }
+}
